@@ -1,0 +1,10 @@
+# tag-cloud: a tag cloud page for monbooru, served by a plugin.
+#
+# Needs Python 3.9+ (standard library only). monbooru starts this with the
+# folder as working directory and MONBOORU_URL in the environment, and stops
+# it by closing stdin.
+command = "python3"
+args = ["tag_cloud.py"]
+command_windows = "python"
+args_windows = ["tag_cloud.py"]
+contract = 1
